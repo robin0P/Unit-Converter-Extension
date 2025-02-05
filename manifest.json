@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Unit Converter",
+    "version": "1.0",
+    "description": "A simple unit converter to convert meters to feet, liters to gallons, and kilograms to pounds.",
+    "author": "Ege Yildiz",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.jpeg"
+    }
+}

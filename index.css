@@ -1,0 +1,137 @@
+*, body {
+    font-family: "Inter", serif;
+    margin: 0;
+    padding: 0;
+    max-width: 550px;
+    max-height: 550px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: #6943FF;
+    width: 550px;
+    height: 285px;
+    color: #FFFFFF;
+}
+
+#main-title {
+    font-weight: 800;
+    width: 448.4px;
+    height: 38px;
+    top: 33px;
+    left: 51px;
+    gap: 0px;
+    opacity: 0px;
+    white-space: nowrap;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#input-field {
+    width: 117px;
+    height: 83px;
+    top: 131px;
+    left: 171px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Inter", serif;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 24.39px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+
+}
+
+/* hide the charger on button */
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#convert-btn {
+    background-color: #FFFFFF;
+    color: #3D3D3D;
+    margin-top: 20px;
+    width: 117px;
+    height: 42px;
+    top: 209px;
+    left: 217px;
+    gap: 0px;
+    border: none;
+    border-radius: 5px;
+    opacity: 0px;
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration-skip-ink: none;
+    text-align: center;
+}
+
+#convert-btn:active {
+    background-color: #c4c4c4;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.unit-card {
+    width: 500px;
+    height: 108.57px;
+    top: 321px;
+    left: 25px;
+    gap: 0px;
+    border-radius: 4.68px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    margin: 25px;
+    margin-bottom: 6px;
+}
+
+.conversion-results {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    /* this is important to center the text */
+    height: 100%;
+    font-family: "Inter", serif;
+    font-size: 15px;    
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.conversion-results h1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;  
+    margin-top: 10px;   
+    color: #5A537B; 
+}
+
+.conversion-results p {
+    margin-bottom: 10px;
+}
+
+
